@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Bashirwale Task1</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header--h1" data-testid="slackUserName">Bashirwale</h1>
+      <img
+        class="header-profile--image"
+        src="https://scontent.flos1-2.fna.fbcdn.net/v/t1.6435-9/118947225_3282808905122042_6711851318806491469_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHxDHQbFPrs3S-2vNfpZpTEfXjN2qldUqF9eM3aqV1SodZk85hETayQ8TpIg6NE1XbMy4SmTZnNQ9IHXf8EYsgm&_nc_ohc=ipZGO8WUAesAX_YIjpo&_nc_ht=scontent.flos1-2.fna&oh=00_AfBFlOmx_QnG8U3PmcwBZKYG8z3xLwZCHeqyr_N26wsGrw&oe=65264D0C"
+        alt="Bashirwale profile
+      pic"
+        data-testid="slackDisplayImage"
+      />
+    </header>
+    <main>
+      <div>
+        <span>Current Day: </span>
+        <p id="days" data-testid="currentDayOfTheWeek"></p>
+      </div>
+      <div>
+        <span>Time in Milliseconds: </span>
+        <p id="UTC--time" data-testid="currentUTCTime"></p>
+      </div>
+      <div>
+        <span>My Track: </span>
+        <p class="tract" data-testid="myTrack">Frontend Track</p>
+      </div>
+      <a
+        class="git-button"
+        href="https://github.com/yourusername/your-repo"
+        data-testid="githubURL"
+        >GitHub Repository</a
+      >
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>

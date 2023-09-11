@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  padding: 0 64px;
+  background-color: #e2dddd;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+}
+.header--h1 {
+  color: blue;
+}
+.header-profile--image {
+  height: 72px;
+  width: 72px;
+  border-radius: 100%;
+}
+main {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-direction: column;
+  padding: 32px;
+  margin: 64px 0;
+  height: 100%;
+  border-radius: 11px;
+}
+div {
+  display: flex;
+  align-items: center;
+}
+div span {
+  color: blue;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+div p {
+  color: gray;
+  font-size: 16px;
+  font-weight: 600;
+}
+.git-button {
+  display: inline-block;
+  color: #fff;
+  background-color: blue;
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.git-button:hover {
+  box-shadow: none;
+}
