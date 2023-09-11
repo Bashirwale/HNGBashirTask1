@@ -27,17 +27,3 @@ document.addEventListener("DOMContentLoaded", function () {
   console.log(currentDayName);
 });
 
-function formatUTCTime(utcTimestamp) {
-  const utcDate = new Date(utcTimestamp);
-  const options = {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-    hour: "numeric",
-    minute: "numeric",
-    second: "numeric",
-    timeZoneName: "short",
-  };
-  return utcDate.toLocaleDateString("en-US", options);
-}
