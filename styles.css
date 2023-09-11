@@ -32,6 +32,7 @@ main {
   padding: 32px;
   margin: 64px 0;
   height: 100%;
+  width: 100%;
   border-radius: 11px;
 }
 div {
@@ -60,4 +61,16 @@ div p {
 }
 .git-button:hover {
   box-shadow: none;
+}
+@media (max-width: 720px) {
+  body {
+    padding: 0 32px;
+  }
+  main {
+    padding: 16px;
+  }
+  .header-profile--image {
+    height: 32px;
+    width: 32px;
+  }
 }
